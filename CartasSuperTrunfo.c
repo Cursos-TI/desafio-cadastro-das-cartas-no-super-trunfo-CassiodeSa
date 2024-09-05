@@ -6,6 +6,37 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
+
+    int codcidade, populacao, pib, turismo;
+    char nome;
+    float area;
+
+    printf("Informe o Código da cidade: %d\n", codcidade);
+    scanf("%d", &codcidade);
+
+    printf("Informe o Nome da cidade: %s \n", nome);
+    scanf("%s", &nome);
+
+    printf("Informe a População da cidade: %d \n", populacao);
+    scanf("%d", &populacao);
+
+    printf("Informe a Área da cidade: %f \n", area);
+    scanf("%f", &area);
+
+    printf("Informe o PIB da cidade: %d \n", pib);
+    scanf("%d", &pib);
+    
+    printf("Informe a quantidade de pontos turísticos da cidade: %d \n", turismo);
+    scanf("%d", &turismo);
+
+    printf("O Código da cidade é: %d \n", codcidade);
+    printf("O Nome da cidade é: %s \n", nome);
+    printf("A população da cidade é de: %d \n", populacao);
+    printf("A área da cidade é de: %f \n", area);
+    printf("O PIB da cidade é de: %d \n", pib);
+    printf("A quantidade de pontos turíticos da cidade é: %d \n", turismo);
+
+    return 0;
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
@@ -16,6 +47,4 @@ int main() {
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
-
-    return 0;
 }
