@@ -7,34 +7,37 @@
 
 int main() {
 
-    int codcidade, populacao, pib, turismo;
-    char nome;
+    int codcidade;
+    float populacao;
+    int pib;
+    int turismo;
+    char nome[20];
     float area;
 
-    printf("Informe o Código da cidade: %d\n", codcidade);
+    printf("Informe o Código da cidade: \n");
     scanf("%d", &codcidade);
 
-    printf("Informe o Nome da cidade: %s \n", nome);
+    printf("Informe o Nome da cidade: \n");
     scanf("%s", &nome);
 
-    printf("Informe a População da cidade: %d \n", populacao);
-    scanf("%d", &populacao);
+    printf("Informe a População da cidade: \n");
+    scanf("%f", &populacao);
 
-    printf("Informe a Área da cidade: %f \n", area);
+    printf("Informe a Área da cidade: \n");
     scanf("%f", &area);
 
-    printf("Informe o PIB da cidade: %d \n", pib);
+    printf("Informe o PIB da cidade: \n");
     scanf("%d", &pib);
     
-    printf("Informe a quantidade de pontos turísticos da cidade: %d \n", turismo);
+    printf("Informe a quantidade de pontos turísticos da cidade: \n");
     scanf("%d", &turismo);
 
-    printf("O Código da cidade é: %d \n", codcidade);
-    printf("O Nome da cidade é: %s \n", nome);
-    printf("A população da cidade é de: %d \n", populacao);
-    printf("A área da cidade é de: %f \n", area);
-    printf("O PIB da cidade é de: %d \n", pib);
-    printf("A quantidade de pontos turíticos da cidade é: %d \n", turismo);
+    printf("O Código da cidade é: %d\n", codcidade);
+    printf("O Nome da cidade é: %s\n", nome);
+    printf("A população da cidade é de: %d\n", populacao);
+    printf("A área da cidade é de: %f\n", area);
+    printf("O PIB da cidade é de: %d\n", pib);
+    printf("A quantidade de pontos turíticos da cidade é: %d\n", turismo);
 
     return 0;
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
